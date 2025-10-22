@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Stock Portfolio Tracker",
-  description: "Track and manage your stock portfolio with ease.",
+  name: "Closet & me",
+  description: "Closet & me - Your Personal Wardrobe Manager",
   navItems: [
     {
       label: "Home",
@@ -24,24 +24,8 @@ export const siteConfig = {
       href: "/dashboard",
     },
     {
-      label: "Projects",
-      href: "/projects",
-    },
-    {
-      label: "Team",
-      href: "/team",
-    },
-    {
-      label: "Calendar",
-      href: "/calendar",
-    },
-    {
       label: "Settings",
       href: "/settings",
-    },
-    {
-      label: "Help & Feedback",
-      href: "/help-feedback",
     },
     {
       label: "Logout",
