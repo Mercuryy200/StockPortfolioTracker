@@ -12,10 +12,10 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <span className={title()}>Track and supervise your &nbsp;</span>
-          <span className={title({ color: "blue" })}>Portfolio&nbsp;</span>
+          <span className={title()}>Organize your&nbsp;</span>
+          <span className={title({ color: "pink" })}>Closet&nbsp;</span>
           <br />
-          <span className={title()}>with the best Stock Portfolio Tracker</span>
+          <span className={title()}>and find an outfit for the day</span>
         </motion.h1>
 
         <motion.h2
@@ -26,8 +26,9 @@ export default function Hero() {
           viewport={{ once: true }}
         >
           <div className={subtitle({ class: "mt-4" })}>
-            Create and follow your stock portfolio easily and efficiently with
-            our intuitive tracker.
+            Simplify your wardrobe management with our intuitive closet
+            organizer. Effortlessly track, plan, and style your outfits for any
+            occasion.
           </div>
         </motion.h2>
       </div>
